@@ -23,6 +23,15 @@ React:
 -   Context
 -   Refs
 
+DSA & Algorhytms:
+
+-   Binary Search \*
+-   Stack, queue \*
+-   Arrays \*
+-   Two pointers \*
+-   Linked list
+-   Trees/Graphs - Dfs, Bfs
+
 Css:
 
 -   Drawback of styled components
