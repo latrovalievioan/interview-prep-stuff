@@ -4,12 +4,13 @@
 - Problem with fetch in useEffect
 - REST
 - What is and endpoint
-- OSI motel
 - Fetch vs XHR, Axios
 - Throttle Debounce
 - Call apply and bind
 - Infinite scroll
 - Unit testing
+- import lazy
+- OSI model
 
 React:
 - Why not setState inside useEffect
