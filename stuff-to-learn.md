@@ -1,0 +1,7 @@
+- React 18 render twice
+- Drawback of styled components
+- Drawback of importing css files
+- Design system
+- Class components vs functional components
+- Problem with fetch in useEffect
+- Why not setState inside useEffect
