@@ -42,7 +42,7 @@ tests.forEach((t) => {
   console.log(calculateVolume(t.l, t.w, t.h));
   console.log(curriedCalculateVolume(t.l)(t.w)(t.h));
   console.log(
-    calculateVolume(t.l, t.w, t.h) === curriedCalculateVolume(t.l)(t.w)(t.h)
+    calculateVolume(t.l, t.w, t.h) === curriedCalculateVolume(t.l)(t.w)(t.h),
   );
 });
 
@@ -51,9 +51,9 @@ tests.forEach((t) => {
 type CalculateVolume = (
   length: number,
   width: number,
-  height: number
+  height: number,
 ) => number;
 
 type CurriedCalculateVolume = (
-  length: number
+  length: number,
 ) => (width: number) => (height: number) => number;
