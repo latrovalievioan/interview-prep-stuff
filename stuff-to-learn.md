@@ -1,19 +1,25 @@
 - Drawback of styled components
 - Drawback of importing css files
 - Design system
-- Problem with fetch in useEffect
+- What is an endpoint
+- SSL/TSL/HTTPS
+- HTTP/HTTP2/HTTP3
+- SSH
 - REST
-- What is and endpoint
 - Fetch vs XHR, Axios
-- Throttle Debounce
-- Call apply and bind
+- Throttle Debounce *
+- Call apply and bind *
+- Unit testing *
 - Infinite scroll
-- Unit testing
 - import lazy
 - OSI model
+- Promises
 
 React:
 - Why not setState inside useEffect
+- Problem with fetch in useEffect
 - Class components vs functional components
 - React 18 render twice
 - hooks (useCallback, useMemo, useInterval, useWindowSize)
+- Error boundry
+- Context
