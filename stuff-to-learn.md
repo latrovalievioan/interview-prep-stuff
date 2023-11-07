@@ -18,10 +18,12 @@ React:
 -   Why not setState inside useEffect
 -   Problem with fetch in useEffect
 -   Class components vs functional components
--   hooks (useCallback, useMemo, useInterval, useWindowSize)
+-   hooks what are they -> (useState, useEffect, useCallback, useMemo, useInterval, useWindowSize)
 -   Error boundry
 -   Context
 -   Refs
+-   Unit testing React components
+-   Difference between state props and own props
 
 DSA & Algorhytms:
 
@@ -38,3 +40,4 @@ Css:
 -   Drawback of importing css files
 -   Design system
 -   Difference between Grid and Flex
+-   Difference between `display: inline` and `display: block`
