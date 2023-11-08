@@ -31,6 +31,7 @@ React:
     -   useInterval
     -   useWindowSize
     -   useContext \*
+    -   useReducer \*
 -   Error boundry
 -   Refs
 -   Unit testing React components
