@@ -30,7 +30,7 @@ React:
     -   useMemo
     -   useInterval
     -   useWindowSize
-    -   useContext
+    -   useContext \*
 -   Error boundry
 -   Refs
 -   Unit testing React components
