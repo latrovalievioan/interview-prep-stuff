@@ -11,16 +11,27 @@
 -   import lazy
 -   OSI model
 -   Promises
+-   Hoisting
+-   Design patterns
+    -   Singleton
+    -   Factory
+    -   Dependency Injection
 
 React:
 
 -   React 18 render twice (strict mode) \*
--   Why not setState inside useEffect
--   Problem with fetch in useEffect
 -   Class components vs functional components
--   hooks what are they -> (useState, useEffect, useCallback, useMemo, useInterval, useWindowSize)
+-   hooks what are they:
+    -   useState
+        -   Why not setState inside useEffect
+    -   useEffect
+        -   Problem with fetch in useEffect
+    -   useCallback
+    -   useMemo
+    -   useInterval
+    -   useWindowSize
+    -   useContext
 -   Error boundry
--   Context
 -   Refs
 -   Unit testing React components
 -   Difference between state props and own props
@@ -41,3 +52,7 @@ Css:
 -   Design system
 -   Difference between Grid and Flex
 -   Difference between `display: inline` and `display: block`
+
+Typescript stuff:
+-   [Discriminated union types](https://www.youtube.com/watch?v=BnhoHTbGVWY)
+-   [Structural types and subtyping](https://www.youtube.com/watch?v=cIhvepd3-n8)
