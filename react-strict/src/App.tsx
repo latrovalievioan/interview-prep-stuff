@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import "./App.css";
+import { useState, useEffect } from 'react';
+import './App.css';
 
 const BadTimer = () => {
   const [time, setTime] = useState(0);
@@ -12,8 +12,10 @@ const BadTimer = () => {
 
   return (
     <div>
-      <h2>
-        Bad Timer: <br /> {time.toFixed(2)}
+      <h2 data-testid="bad-timer">
+        Bad Timer:
+        <br />
+        {time.toFixed(2)}
       </h2>
     </div>
   );
@@ -32,8 +34,10 @@ const GoodTimer = () => {
 
   return (
     <div>
-      <h2>
-        Good Timer: <br /> {time.toFixed(2)}
+      <h2 data-testid="good-timer">
+        Good Timer:
+        <br />
+        {time.toFixed(2)}
       </h2>
     </div>
   );
