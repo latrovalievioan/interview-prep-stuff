@@ -1,3 +1,5 @@
+## Common stuff:
+
 -   Throttle Debounce \*
 -   Call apply and bind \*
 -   Unit testing \*
@@ -17,7 +19,7 @@
     -   Factory
     -   Dependency Injection
 
-React:
+## React:
 
 -   React 18 render twice (strict mode) \*
 -   hooks what are they: \*
@@ -34,7 +36,7 @@ React:
 -   Error boundry
 -   Unit testing React components
 
-DSA & Algorhytms:
+## DSA & Algorhytms:
 
 -   Binary Search \*
 -   Stack, queue \*
@@ -43,7 +45,7 @@ DSA & Algorhytms:
 -   Linked list
 -   Trees/Graphs - Dfs, Bfs
 
-Css:
+## Css:
 
 -   Drawback of styled components
 -   Drawback of importing css files
@@ -51,7 +53,7 @@ Css:
 -   Difference between Grid and Flex
 -   Difference between `display: inline` and `display: block`
 
-Typescript stuff:
+## Typescript stuff:
 
 -   [Discriminated union types](https://www.youtube.com/watch?v=BnhoHTbGVWY)
 -   [Structural types and subtyping](https://www.youtube.com/watch?v=cIhvepd3-n8)
