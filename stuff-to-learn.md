@@ -20,22 +20,19 @@
 React:
 
 -   React 18 render twice (strict mode) \*
--   Class components vs functional components
--   hooks what are they:
-    -   useState
-        -   Why not setState inside useEffect
-    -   useEffect
-        -   Problem with fetch in useEffect
-    -   useCallback
-    -   useMemo
-    -   useInterval
-    -   useWindowSize
+-   hooks what are they: \*
+    -   useState \*
+        -   Why not setState inside useEffect \*
+    -   useEffect \*
+        -   Problem with fetch in useEffect \*
+    -   useCallback (Reac.Memo) \*
+    -   useMemo \*
     -   useContext \*
     -   useReducer \*
+    -   useRef \*
+    -   use \*
 -   Error boundry
--   Refs
 -   Unit testing React components
--   Difference between state props and own props
 
 DSA & Algorhytms:
 
@@ -55,5 +52,6 @@ Css:
 -   Difference between `display: inline` and `display: block`
 
 Typescript stuff:
+
 -   [Discriminated union types](https://www.youtube.com/watch?v=BnhoHTbGVWY)
 -   [Structural types and subtyping](https://www.youtube.com/watch?v=cIhvepd3-n8)
