@@ -52,10 +52,10 @@ function App() {
           border: '1px solid white',
         }}
       >
-        <h1>Count: {state.count}</h1>
+        <h1 data-testid="count display">Count: {state.count}</h1>
         <div style={{ display: 'flex' }}>
-          <button onClick={dispatchIncrementCountByOne}>Increment</button>
-          <button onClick={dispatchDecrementCountByOne}>Decrement</button>
+          <button onClick={dispatchIncrementCountByOne}>Increment Count</button>
+          <button onClick={dispatchDecrementCountByOne}>Decrement Count</button>
         </div>
       </div>
       <div
@@ -67,10 +67,14 @@ function App() {
           border: '1px solid white',
         }}
       >
-        <h1>Count2: {state.count2}</h1>
+        <h1 data-testid="count2 display">Count2: {state.count2}</h1>
         <div style={{ display: 'flex' }}>
-          <button onClick={dispatchIncrementCount2ByOne}>Increment</button>
-          <button onClick={dispatchDecrementCount2ByOne}>Decrement</button>
+          <button onClick={dispatchIncrementCount2ByOne}>
+            Increment Count2
+          </button>
+          <button onClick={dispatchDecrementCount2ByOne}>
+            Decrement Count2
+          </button>
         </div>
       </div>
     </>
