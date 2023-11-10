@@ -14,6 +14,7 @@
 -   OSI model
 -   Promises
 -   Hoisting
+-   OAuth
 -   Design patterns
     -   Singleton
     -   Factory
