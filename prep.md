@@ -1,10 +1,16 @@
 ## Concepts/Techniques/Patterns:
 
 -   Throttle Debounce \*
+    > Throttle
+        - Call the function maximum 1 time per delay time
+    > Debounce
+        - Call the function after a certain period of inactivity
 -   [Authentication vs Authorization](https://www.youtube.com/watch?v=zpbAzBgHq0o) \*
--   Infinite scroll
+    > Authentication
+        - Authenticate a user with its credentials
+    > Authorization
+        - Checks is a user has the correct access rights
 -   import lazy
--   OSI model
 -   Design patterns
     -   Singleton
     -   Factory
@@ -13,8 +19,9 @@
 ## Connection/Communication:
 
 -   [TCP](https://www.youtube.com/watch?v=0y6FtKsg6J4) \*
+    > Transmission Control Protocol
     > Provides a reliable end-to-end communication between devices
-    > Devides the data into small segments
+    > Divides the data into small segments
     > Sends each segment individually
     > Each segment has a sequence number used to reassamble the data in order
 -   [HTTP/HTTP2/HTTP3 ](https://www.youtube.com/watch?v=a-sBfyiXysI) \*
@@ -37,7 +44,6 @@
         -   Client generates a session key, encripted with the server's public key
         -   Client sends the session key and decrypts it with the private key
         -   Session key is used to encrypt/decrypt data
--   Fetch vs XHR, Axios \*
 -   What is an endpoint \*
     > Specific URI where an API can be accessed.
 -   [REST](https://www.youtube.com/watch?v=-mN3VyJuCjM) \*
@@ -54,14 +60,26 @@
         -   200 - success
         -   400 - something wrong with the request
         -   500 - something wrong with the server
-    > STATELESS - partiest shouldn't store info for each other
+    > STATELESS - parties shouldn't store info for each other
     > PAGINATION - limit + offest
+-   Fetch vs XHR, Axios \*
+    > Fetch
+        -   Native to the browser
+        -   Uses Promises
+    > XHR(XMLHttpRequest)
+        -   Its an older way for making requests
+        -   Handling responses involves event listeners
+    > Axios
+        -   Axios is a third party library that uses XHR under the hood
+-   [Cookies and session tokens](https://www.youtube.com/watch?v=GhrvZ5nUWNg)
 -   SSH
+-   OSI model
 
 ## JavaScript stuff:
 
 -   Call apply and bind \*
 -   Unit testing \*
+-   Event loop
 -   Promises
 -   [Hoisting](https://www.youtube.com/watch?v=EvfRXyKa_GI) \*
 
